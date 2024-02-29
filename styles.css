@@ -4,25 +4,67 @@
     margin: 0;
     font-family: "Montserrat", sans-serif;
 }
+html{
+    font-size: 25px;
+}
+h1{
+    font-size: 10rem;
+    line-height: 10rem;
+    font-weight: 900;
+}
+h2{
+    font-size: 5rem;
+    line-height: 5rem;
+}
+.title-bottom p{
+    font-size: 10rem;
+    line-height: 10rem;
+    font-weight: 900;
+    position: relative;
+    top: -5rem;
+}
 header{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 700px;
+    padding: 0 20px;
+    position: relative;
 }
-.title{
-    height: 500px;
-    width: 95%;
+.header-title{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
-.up-title{
-    font-size: 100px;
+.title-top{
+    color: #F266CB;
+    overflow: hidden;
+    background-color: white;
+    transition: 1s;
+    height: 5rem;
 }
-.bottom-title{
-    font-size: 100px;
+.title-bottom{
+    overflow: hidden;
+    color: #6A32E2;
+    background-color: white;
+    height: 5rem;
+    transition: 1s
 }
-.center-title{
+.header-sub-title{
+    width: 100%;
+    color: white;
+    background-color: #2E292A;
+    height: 150px;
+    text-align: center;
+    padding: 15px 122px;
     
+}
+.header-title:hover .title-bottom{
+    margin-top: 7rem;
 }
 .Fame{
     font-size: 75px;
