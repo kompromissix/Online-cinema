@@ -165,3 +165,50 @@ header{
     width: 90%;
     background-color: #47B198;
 }
+
+.Fame-hall{
+    max-width: 1440px;
+    width: 100%;
+    height: 80vh;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+.Fame-hall-card{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.Fame-hall-card-item{
+    flex-grow: 1;
+    height: 432px;
+    transition: 3s all ease;
+}
+.Fame-hall-card-item:hover{
+    flex-grow: 2.5;
+    height: 5s;
+}
+.Fame-hall-card-item:first-of-type{
+    background: linear-gradient(0deg, rgba(230, 120, 18, 0.49), rgba(230, 120, 18, 0.49)), url("img/Rectangle\ 24.png");
+    background-position: center;
+}
+.Fame-hall-card-item:nth-of-type(2){
+    background: linear-gradient(0deg, rgba(39, 177, 221, 0.54), rgba(39, 177, 221, 0.54)), url("img/Rectangle\ 22.png");
+    background-position: center;
+}
+.Fame-hall-card-item:nth-of-type(3){
+    background: linear-gradient(0deg, rgba(69, 187, 131, 0.24), rgba(69, 187, 131, 0.24)), url("img/Rectangle\ 26.png");
+    background-position: center;
+}
+.Fame-hall-card-item:nth-of-type(4){
+    background: linear-gradient(0deg, rgba(69, 104, 228, 0.53), rgba(69, 104, 228, 0.53)), url("img/Rectangle\ 25.png");
+    background-position: center;
+}
+.Fame-hall-card-item:last-of-type{
+    background: linear-gradient(0deg, rgba(238, 184, 45, 0.59), rgba(238, 184, 45, 0.59)), url("img/Rectangle\ 23.png");
+    background-position: center;
+}
+.more{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
